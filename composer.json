@@ -1,0 +1,16 @@
+{
+    "name": "wmjasonward/laravel-creates-http-requests",
+    "description": "Trait for creating http Request objects in test cases",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Ward",
+            "email": "wmjasonward@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"WmJasonWard\\Laravel\\Testing\\": "src"}
+    }
+}
