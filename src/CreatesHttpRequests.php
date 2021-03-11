@@ -32,6 +32,7 @@ trait CreatesHttpRequests
    *  Creates an HttpRequest object that can be passed directly
    *  into a middleware handler
    *
+   *
    * @param  string  $method
    * @param  string  $uri
    * @param  array  $parameters
@@ -182,7 +183,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a GET request for the given URI, expecting a JSON response.
+   * Creates a JSON GET request for the given URI
    *
    * @param  string  $uri
    * @param  array  $headers
@@ -194,7 +195,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a POST request for the given URI, expecting a JSON response.
+   * Creates a JSON POST request for the given URI.
    *
    * @param  string  $uri
    * @param  array  $data
@@ -207,7 +208,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a PUT request for the given URI, expecting a JSON response.
+   * Creates a JSON PUT request for the given URI.
    *
    * @param  string  $uri
    * @param  array  $data
@@ -220,7 +221,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a PATCH request for the given URI, expecting a JSON response.
+   * Creates a JSON PATCH request for the given URI.
    *
    * @param  string  $uri
    * @param  array  $data
@@ -233,7 +234,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a DELETE request for the given URI, expecting a JSON response.
+   * Creates a JSON DELETE request for the given URI.
    *
    * @param  string  $uri
    * @param  array  $data
@@ -246,7 +247,7 @@ trait CreatesHttpRequests
   }
 
   /**
-   * Creates a OPTIONS request for the given URI, expecting a JSON response.
+   * Creates a JSON OPTIONS request for the given URI.
    *
    * @param  string  $uri
    * @param  array  $data
