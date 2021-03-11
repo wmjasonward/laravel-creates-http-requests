@@ -13,6 +13,8 @@ use WmJasonWard\Laravel\Testing\CreatesHttpRequests;
 
 class MyMiddlewareHandlerTest extends TestCase
 {
+    use CreatesHttpRequests;
+    
     public function test_my_middleware_handler ()
     {
         $middleware = new MyMiddleware();
